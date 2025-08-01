@@ -18,7 +18,7 @@ st.sidebar.title("Navigation")
 page = st.sidebar.radio("Go to", ["Home", "Recommendations", "About"])
 
 # ---------- TMDB API ----------
-API_KEY = "YOUR_TMDB_API_KEY"  # Replace with your key
+API_KEY = "aafab8350973c56c9df7f28edb184e26"  # Replace with your key
 BASE_URL = "https://api.themoviedb.org/3"
 
 def search_movie(movie_name):
