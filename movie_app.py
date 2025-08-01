@@ -41,7 +41,7 @@ def get_recommendations(movie_id):
 if page == "Home":
     st.subheader("Welcome!")
     st.write("This app recommends movies based on your search using TMDB API.")
-    st.image("https://i.imgur.com/4M7IWwP.png", use_container_width=True)
+    st.image("https://images.unsplash.com/photo-1616530940355-351fabd9524b?q=80&w=735&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", use_container_width=True)
     st.markdown("**Built with ❤️ by Nanda Viji**")
 
 elif page == "Recommendations":
